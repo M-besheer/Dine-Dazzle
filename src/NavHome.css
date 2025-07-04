@@ -1,0 +1,261 @@
+.NavBig_{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .Main_{
+      background-color: #0f2359;
+      /* border: white 2px solid; */
+      display: flex;
+      justify-content: space-between; /* Distribute evenly with margins on ends */
+      align-items: center;
+      height: 10vh;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 2;
+    }
+  
+    .text_ {
+      /* border: white 2px solid; */
+      width: 500px;
+      font-family: Satisfy;
+      /* width:100%; */
+      text-align: center;
+      margin-left: 15px;
+      display: flex;
+      justify-content:center;
+      @media screen and (max-width:800px){
+        display: none;
+      }
+    }
+    .text_ :nth-child(1){
+      padding: 0px 20px;
+      color: #e6affc;
+    }
+    .text_ :nth-child(2){
+      padding: 0px 20px;
+      color: #e6affc;
+    }
+    .text_ :nth-child(3){
+      padding: 0px 20px;
+    }
+    .text_ :nth-child(4){
+      padding: 0px 20px;
+    }
+    
+    .text_ :nth-child(1):hover{
+      color: white;
+      background-color: #525b75;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .text_ :nth-child(2):hover{
+      color: white;
+      background-color: #525b75;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .text_ :nth-child(3):hover{
+      color: white;
+      background-color: #525b75;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .text_ :nth-child(4):hover{
+      color: white;
+      background-color: #525b75;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    
+    .Logo_ {
+      height: 10vh; 
+      /* border: white 1px solid; */
+      margin-left: auto;
+      margin-right: 604px;
+      @media(max-width:800px){
+        margin-right: 100px;
+      }
+     
+    }
+  
+  
+    .menu_{
+      height: 35px;
+      margin-right: 100px;
+      /* border: #e6affc 2px solid; */
+      @media(min-width: 800px){
+        display: none;
+      }
+      @media(max-width: 800px){
+        margin-right: 50px;
+      }
+        
+    }
+    .menu_ :hover{
+      border-radius: 100%;
+      cursor: pointer;
+    }
+   
+  
+    h2{
+      color: white;
+      font-size: 20px;
+    }
+    
+    .close_{
+      height: 35px;
+      width: 35px;
+      border: #e6affc 2px solid;
+      background-color: rgb(232, 230, 230);
+    }
+    .sidebar_{
+      border-radius: 25px;
+      /* background-image: linear-gradient(45deg, rgb(94, 149, 171) 20%,rgb(131, 70, 150) 50% ,rgb(243, 84, 84) 100%); */
+      background-color: rgba(252, 252, 252,0.5);
+      backdrop-filter: blur(10px);
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      width: 250px;
+      z-index: 999;
+      transition: 0.5s;
+      box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    }
+  
+    .sidebar_ :nth-child(1){
+      color: black;
+      font-size: 30px;
+      font-family: Satisfy;
+      /* width:100%; */
+      text-align: center;
+      
+    }
+    .sidebar_ :nth-child(2){
+      color: black;
+      font-size: 30px;
+      font-family: Satisfy;
+      width:100%;
+      text-align: center;
+    }
+    .sidebar_ :nth-child(3){
+      color: black;
+      font-size: 30px;
+      font-family: Satisfy;
+      width:100%;
+      text-align: center;
+    }
+    .sidebar_ :nth-child(4){
+      color: black;
+      font-size: 30px;
+      font-family: Satisfy;
+      width:100%;
+      text-align: center;
+  
+    }
+    .sidebar_ :nth-child(5){
+      color: black;
+      font-size: 30px;
+      font-family: Satisfy;
+      width:100%;
+      margin-right: 0px;
+      text-align: center;
+      
+    }
+    .sidebar_ :nth-child(6){
+      color: black;
+      font-size: 30px;
+      font-family: Satisfy;
+      width:100%;
+      text-align: center;
+    }
+    .sidebar_ :nth-child(1):hover{
+      color: white;
+      cursor: pointer;
+    }
+    .sidebar_ :nth-child(2):hover{
+      color: white;
+      background-color: #475c9e;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .sidebar_ :nth-child(3):hover{
+      color: white;
+      background-color: #475c9e;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .sidebar_ :nth-child(4):hover{
+      color: white;
+      background-color: #475c9e;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .sidebar_ :nth-child(5):hover{
+      color: white;
+      background-color: #475c9e;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .sidebar_ :nth-child(6):hover{
+      color: white;
+      background-color: #475c9e;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    
+    @media(max-width:800px){
+      .hideOnMobile_{
+        display: none;
+      }
+    }
+  
+  
+  
+  
+    .glowybar_{
+      background-color: #e6affc;
+      height: 1vh;
+      box-shadow: #e6affc 0px 0px 30px 5px;
+      position: fixed;
+      width: 100%;
+      margin-top: 90px;
+      z-index: 2;
+  
+      @media screen and(max-width:800px){
+        margin-top:75px ;
+      }
+      @media screen and(min-width:800px){
+        margin-top:70px ;
+      }
+      @media screen and (max-width:1200px){
+        margin-top:70px ;
+      }
+     
+    }
+
+    /* .Main_ :nth-child(5){
+      margin-right: 0px;
+      font-family: Satisfy;
+    } */
+
+    .LLogin{
+      margin-right: 40px;
+      font-family: Satisfy;
+      text-decoration: none;
+      color: white;
+      padding: 5px;
+      background-color: #e6affc;
+      border-radius: 20px;
+      @media screen and (max-width:800px) {
+        display: none;
+      }
+    }
+
+   

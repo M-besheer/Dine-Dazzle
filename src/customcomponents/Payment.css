@@ -1,0 +1,49 @@
+.bigform{
+    background: url("../pics/background-image2.png");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.paymentform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    height: fit-content;
+    width: fit-content;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(200, 132, 211);
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: white 0px 0px 30px;
+    color: aliceblue;
+    font-weight: 700;
+}
+
+.priceandpay{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.paybtn{
+    padding: 10px;
+    border-radius: 25px ;
+    background-color: rgb(200, 132, 211);
+    color: aliceblue;
+    font-weight: 700;
+    font-family: cursive;
+    font-size: 20px;
+    border: white 2px solid;
+
+}

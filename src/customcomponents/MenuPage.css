@@ -1,0 +1,317 @@
+.bgdiv{
+  background-color:#d5b6e1;
+}
+
+  .App1-1{
+    background-color: #0f2359;
+    height: 11vh;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    margin-top:90px;
+    z-index: 1;
+    @media screen and (max-width:320px) {
+      margin-top:70px;
+      overflow-x:auto ;
+    }
+    @media screen and (max-width:800px) {
+      margin-top: 70px;
+      overflow-x: auto;
+    }
+    @media screen and (max-width:1200px) {
+      margin-top: 70px;
+      overflow-x: auto;
+    }
+  }
+  .Scrollbar{
+    display: flex;
+    gap: 20px;
+    width: 40%;
+  }
+  
+  
+  li{
+    text-wrap: nowrap;
+    background-color:rgb(159, 63, 157) ;
+    list-style-type: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    color: rgb(244, 168, 231);
+    font-weight: 700;
+    font-family: Satisfy;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+    /* border: white solid 2px; */
+    /* box-shadow: 0px 0px 10px rgb(255, 86, 114); */
+  }
+  
+   .beefburgers{
+    background-color:rgb(244, 168, 231) ;
+    padding: 10px;
+    border-radius: 100px;
+    color: rgb(159, 63, 157);
+    border: 20px soild rgb(201, 146, 146);
+    font-weight: 700;
+    font-family: Satisfy;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.5s;
+    cursor: pointer;
+    /* box-shadow: 0px 0px 10px rgb(255, 86, 114); */
+  }
+  .text1{
+    font-family: satisfy;
+    
+  }
+  .App2{
+    display:flex;
+    flex-wrap:wrap;
+    width: 100%;
+    @media screen and (max-width:320px) {
+      position: relative;
+      overflow-y: auto;
+      overflow-x: hidden;
+      height: 150vh;
+    }
+     @media screen and (max-width:800px) {
+      position: relative;
+      overflow-y: auto;
+      overflow-x: hidden;
+      height: 160vh;
+     }
+    /* flex-flow: column-wrap; */
+    flex-flow: row-wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 20px;
+    background-color: #0f2359;
+    background: url('../pics/background-image2.png');
+    background-repeat:repeat;
+    background-position: center;
+    background-size: 600px; 
+    /* background-attachment:var(--mask); */
+    position: relative;
+    height: 120vh;
+    font-size: 50px;
+    z-index: 1;
+      --mask:
+        radial-gradient(65.25px at 50% calc(100% - 92.25px),#000 99%,#0000 101%) calc(50% - 90px) 0/180px 100%,
+        radial-gradient(65.25px at 50% calc(100% + 47.25px),#0000 99%,#000 101%) 50% calc(100% - 45px)/180px 100% repeat-x;
+      -webkit-mask: var(--mask);
+              mask: var(--mask);
+    
+  }
+  .ALLMENU{
+    width:100vw;
+    /* border: white solid 10px; */
+    backdrop-filter: blur(5px);
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    flex-flow: row-wrap;
+    @media screen and (max-width:320px) {
+      flex-flow: column;
+      overflow-y: auto;
+      overflow-x: hidden;
+      height: 160vh;
+      margin-bottom: 100px;
+      margin-top: 100px;
+    }
+    /* @media screen and (max-width:800px) {
+      flex-flow: row;
+      flex-wrap: wrap;
+      overflow-y: auto;
+      overflow-x: hidden;
+      height: 200vh;
+      margin-bottom: 0px;
+      margin-top: 0px;
+    } */
+    align-content: center;
+    justify-content: start;
+    row-gap: 80px;
+    column-gap: 20px;
+    background-color: transparent;
+    background-size: 800px;
+    position: relative;
+    height: 120vh;
+    font-size: 50px;
+    z-index: 1;
+    
+  
+  }
+  .menuitem{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 40vh;
+    width: 18vw;
+    align-items: center;
+    @media screen and (max-width:320px) {
+      width:30vh;
+      margin-left:40px ;
+      transform: translateY(0px);
+      align-items: center;
+      margin-top: 80px;
+      margin-right: 0px;
+    }
+    @media screen and (max-width:800px) {
+      webkit-scrollbar{
+        display: none;
+       }
+    }
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0px;
+    /* border: 2px white solid; */
+    background-color: #8b99c2;
+    transform: translateY(80px);
+    }
+  .menuimg .menuitem-logo{
+    border:  #8b99c2 8px solid;
+    background-color: white;
+    height:120px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius:80px ;
+    border-bottom-left-radius:80px ;
+    transform: translate(0px,-45px);
+    transition: 0.5s;
+    @media screen and (max-width:320px) {
+      transform: translate(0px,0px);
+      height: 100px;
+    }
+  }
+  .menuitemdescribe{
+    /* border: #0f2359 solid 2px; */
+    background-color: #d5b6e1;
+    height: 20vh;
+    transform: translateY(-50px);
+    text-align: center;
+    width: 100%;
+    color: rgb(8, 8, 8);
+    @media screen and (max-width:320px) {
+      transform: translateY(0px);
+      margin-bottom: 0px;
+      height: 20vh;
+    }
+      /* --mask:
+        radial-gradient(44.72px at 50% 60px,#000 99%,#0000 101%) calc(50% - 40px) 0/80px 51% repeat-x,
+        radial-gradient(44.72px at 50% -40px,#0000 99%,#000 101%) 50% 20px/80px calc(51% - 20px) repeat-x,
+        radial-gradient(44.72px at 50% calc(100% - 60px),#000 99%,#0000 101%) calc(50% - 40px) 100%/80px 51% repeat-x,
+        radial-gradient(44.72px at 50% calc(100% + 40px),#0000 99%,#000 101%) 50% calc(100% - 20px)/80px calc(51% - 20px) repeat-x;
+      -webkit-mask: var(--mask);
+              mask: var(--mask); */
+    
+    
+  
+  }
+  .description{
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin: 40px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    @media screen and (max-width:320px) {
+      margin-bottom: 0rem;
+      margin-top: 1rem;
+      width: 227px;
+    }
+    
+  }
+  .subtext{
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    font-weight: 700;
+   
+    color: rgb(255, 255, 255);
+    @media screen and (max-width:320px) {
+      margin-bottom: 10rem;
+    }
+    
+  
+  }
+  .addprice{
+    /* border: #0f2359  solid 2px; */
+    transform: translateY(-20px);
+    width: 100%;
+    padding: 0px;
+    background-color: #8b99c2;
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Satisfy;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+    @media screen and (max-width:320px) {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+  .zawedwena2as{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5vh;
+    gap: 10px;
+    padding: 2px;
+    border: 2px solid #0f2359;
+    background-color: #0f2359;
+    border-radius: 25px;
+    transition: 0.5s;
+    
+    
+  }
+  .buttonadd{
+    cursor: pointer;
+    background-color: #ffffff;
+    
+    /* margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px; */
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border: #0f2359 2px solid;
+    border-radius: 12px;
+  
+  }
+  .itemcount{
+    color: white;
+  }
+  .price{
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    color: white;
+    font-size: 25px;
+    
+  }
+  .App3{
+    background-color: lightblue;
+    height: 70vh;
+    /* transform: translateY(-70px); */
+  }
+  .App4{
+    background-color: pink;
+    height: 100vh;
+  }
+  
