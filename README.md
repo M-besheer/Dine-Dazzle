@@ -80,9 +80,12 @@ Your database is now set up.
     └── README.md
 
 
-### 📸 Preview:
-
---> Check out the demo video in the repository files! 
+### 📸 GUI Preview:
 <img width="1279" alt="image" src="https://github.com/user-attachments/assets/090ac142-56d6-47da-a743-e89d7125111c" />
+<img width="1279" alt="image" src="https://github.com/user-attachments/assets/0698eeb0-23dd-4e69-b706-b613ff83d29e" />
+<img width="1279" alt="image" src="https://github.com/user-attachments/assets/c307cc06-450e-473f-bbb9-33536389590a" />
+<img width="1279" alt="image" src="https://github.com/user-attachments/assets/d2f90ecc-5271-48dd-8038-01776bb8441e" />
+
+
 
 
